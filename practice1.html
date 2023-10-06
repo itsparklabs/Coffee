@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        *{
+            margin: 0px;
+            
+        }
+        body{
+            display: flex;
+            
+            
+
+             
+
+        }
+
+    header,footer{
+        background-color:#307470;
+        height: 12vh;
+        text-align: center;color: white;
+    }            
+h3,a{
+        color: white;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    article,p,h2{
+    color: black;
+}  
+main>nav,
+main > aside
+{
+    flex: 0 0 10vw;
+    background-color:#307470 ;
+    border: 2px solid red;
+
+} 
+
+    </style>
+</head>
+<body>
+<main>
+    <header >
+        <h1>HTML Layout</h1>
+    </header>
+    <nav>
+        <!-- unorder list  -->
+        
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            </ul>
+        </nav>
+            <article>
+
+                <h2>About HTML</h2>
+                <p>
+                    HTML, an acronym for HyperText Markup Language, is a primary markup language for creating websites. It consists of a series of codes used to structure texts, images, and other content to be displayed in a browser. 
+                </p>
+                <h2>HTML Basics</h2>
+                <p>
+                    In the HTML Basics section, you will have a full understanding of Editors and Tools that you need when working on building web pages. It will inform you about the professional editors that web developers use for coding. Elements are the fundamentals of HTML. Each HTML document is made of elements, which are defined using tags. HTML Elements teaches you the types of HTML elements. It also highlights the difference between HTML tags and HTML elements that are often confused. HTML Basic Tags are used to structure website content (text, hyperlinks, images, media, etc). Tags only "instruct" browsers how to show the content of the web page. HTML Tags chapter suggests the most frequently used tags in HTML with their examples. HTML Attributes are added to an HTML element to provide additional information about it. Book suggests lots of examples and the list of the most used attributes. HTML Formatting sophisticated chapter lets you explore the categories of formatting tags with a brief description and examples. Websites contain different types of links that take you directly to other pages or allow navigating to a specific part of the page. Find out how you can define hyperlinks in the HTML Links chapter and how to use different attributes with links and how to apply links on the image. Our next HTML Color Names chapter shows the ways of changing the color of the text in HTML. Also, find a 216 cross-browser color palette used for creating pages of websites. HTML Tables section suggests the list of deprecated attributes, which means that they are no longer used in the mentioned tags and are replaced by other alternative attributes. HTML Scripts section highlights the way to embed script or reference to an executable script within an HTML document and to trigger scripts. 
+                </p>
+                <h2>
+                    HTML Tag
+                </h2>
+                <p>
+                    HTML Tags presents the largest section with all HTML tags, including the deprecated ones. In the Deprecated Tags chapter, you will read about the set of HTML deprecated tags with their alternative suggestions. Two other chapters include HTML Global Attributes and Event Attributes where you can find everything related to these topics. In our website, you can find the HTML editor, where you can edit the HTML code, and click "Submit" to see the result. HTML is not so difficult, so we are sure you will enjoy learning. After successfully completing the HTML book, you will have a challenge! 
+                </p>
+                <img src="img/html.gif" alt="" width="100%" height="150vh">
+                </article>
+            <aside>
+                <h3>
+                <a href="">HTML Layout</a></h3>
+                <h3>
+                <a href="">Heading Tag</a></h3>
+                <h3>
+                <a href="">Font Tag</a></h3>
+                <h3>
+                <a href="">Style Tag</a>
+            </h3>
+            <h3>
+                <a href="">Comments</a>
+            </h3>
+
+
+            </aside>
+         <footer>
+            <a href="">About us</a>
+            <a href="">Privacy</a>
+         </footer>   
+    
+</main>
+</body>
+</html>
